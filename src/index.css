@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { -webkit-tap-highlight-color: transparent; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; }
+.pb-safe { padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); }
